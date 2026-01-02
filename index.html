@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Document</title>
+  <style>
+    html, body { margin: 0; height: 100%; }
+    .bar {
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      padding: 10px 12px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+    .bar a { text-decoration: none; }
+    iframe { width: 100%; height: calc(100% - 48px); border: 0; }
+  </style>
+</head>
+<body>
+  <div class="bar">
+    <strong>Document</strong>
+    <a href="./Livre.pdf" target="_blank" rel="noopener">Ouvrir en plein écran</a>
+  </div>
+  <iframe src="./Livre.pdf"></iframe>
+</body>
+</html>
